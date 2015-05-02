@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background: white;
+}
+
+.link {
+    stroke: #666;
+}
+
+.highlighted {
+    stroke: darkred !important;
+}
+
+.node circle {
+    fill: black;
+    stroke-width: 1px;
+}
+
+text {
+    font: 10px sans-serif;
+    fill: black;
+    pointer-events: none;
+}
